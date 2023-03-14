@@ -5,14 +5,23 @@ name = "pypi"
 
 [packages]
 fastapi = "*"
+uvicorn = "*"
 fastapi-sqlalchemy = "*"
 alembic = "*"
+
+## for email validation
 pydantic = "*"
+
+## for loading environment variables
 python-dotenv = "*"
-sqlalchemy = "*"
-uvicorn = "*"
+
+## for database a
 psycopg = "*"
 psycopg2-binary = "*"
+sqlalchemy = "*"
+
+## for password hashing
+passlib = "*"
 
 [dev-packages]
 
